@@ -11,7 +11,6 @@ The role of the activation function in a neural network is to introduce non-line
 Activation functions also help to control the flow of gradients during the backpropagation training process, which is crucial for updating the weights in the network. Some activation functions, like the sigmoid or tanh, have been historically used but are less common now due to problems like vanishing gradients, where the gradients become too small for effective learning during backpropagation
 
 # A taxonomy of activation functions
-
 ## Fixed-shape activation functions:
 All the activation functions with a fixed shape, for example, all the classic activation functions used in neural network literature.
 we can further divide this class of functions into:
@@ -67,13 +66,10 @@ Functions based on ensemble methods: With the expression “ensemble methods” 
 <img width="1200" alt="Screenshot 2024-02-17 at 02 26 01" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/3df788b1-aa17-439d-9d5e-6baf80f99590">
 <img width="1200" alt="Screenshot 2024-02-17 at 02 28 13" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/8279fa44-aa84-4d6f-8aed-1c518614d419">
 
+## Trainable non-standard Activation function:
+These functions can be considered as a different type of computational neuron unit compared with the original computational neuron model! please read the literature if you want to know about them. 
 
-
-
-
- 
-
-
+#### In the notebook I wrote python to script to implement some of the activaion functions. plase have look there.
 
 ### Reference:
 Andrea Apicella, Francesco Donnarumma, Francesco Isgrò, Roberto Prevete,
