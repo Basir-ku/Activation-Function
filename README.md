@@ -60,9 +60,12 @@ Functions based on ensemble methods: With the expression “ensemble methods” 
 <img width="1200" alt="Screenshot 2024-02-17 at 02 00 26" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/17ada8f9-7c1a-4e73-bca0-84f8a78c59c7">
 
 ### Functions based on ensemble methods:
-
-
-
+<img width="1200" alt="Screenshot 2024-02-17 at 02 14 10" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/2732f403-4572-4870-9ee2-16ad6527423c">
+<img width="1200" alt="Screenshot 2024-02-17 at 02 17 33" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/eb3715c1-3995-4527-9397-f5833364ce3f">
+<img width="1200" alt="Screenshot 2024-02-17 at 02 21 59" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/df3c3419-a26e-40b0-957e-e3fc356550c5">
+<img width="1200" alt="Screenshot 2024-02-17 at 02 23 01" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/d7f59070-c75f-493e-ae03-54f39b5aa1d3">
+<img width="1200" alt="Screenshot 2024-02-17 at 02 26 01" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/3df788b1-aa17-439d-9d5e-6baf80f99590">
+<img width="1200" alt="Screenshot 2024-02-17 at 02 28 13" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/8279fa44-aa84-4d6f-8aed-1c518614d419">
 
 
 
