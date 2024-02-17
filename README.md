@@ -2,7 +2,7 @@
 
 ## Definition: 
 Activation functions in neural networks are mathematical equations that determine the output of a neural network node, or "neuron," given a set of inputs. Each neuron typically takes in a weighted sum of inputs, adds a bias, and then passes this sum through an activation function to produce the output.
-<img width="1430" alt="Screenshot 2024-02-17 at 00 10 24" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/faf6ea46-3abf-4215-95a4-d26e973c5bbf">
+<img width="1200" alt="Screenshot 2024-02-17 at 00 10 24" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/faf6ea46-3abf-4215-95a4-d26e973c5bbf">
 
 
 # Role of Activation Functions:
@@ -12,8 +12,8 @@ Activation functions also help to control the flow of gradients during the backp
 
 # A taxonomy of activation functions
 
-### fixed-shape activation functions:
-all the activation functions with a fixed shape, for example, all the classic activation functions used in neural network literature.
+## Fixed-shape activation functions:
+All the activation functions with a fixed shape, for example, all the classic activation functions used in neural network literature.
 we can further divide this class of functions into:
 
 –
@@ -22,32 +22,47 @@ rectified-based function: all the functions belonging to the rectifier family, s
 –
 classic activation function: all the functions that are not in the rectifier family, such as the sigmoid, tanh, step functions.
 
-### trainable activation functions: 
-This class contains all the activation functions the shape of which is learned during the training phase. we can isolate two this into different families:
-
-–
-parameterized standard functions: in this case, we consider all the trainable functions derived from standard fixed activation functions with the addition of a set of trainable parameters.
-
-–
-Functions based on ensemble methods: they are defined by mixing several distinct functions. A common way to mix different functions is combining them linearly, i.e., the 
-final activation functions are modeled in terms of linear combinations of one-variable functions. We group together all these activation functions in a subclass that we named linear combination of one-to-one functions.
-
-<img width="826" alt="Screenshot 2024-02-17 at 00 29 53" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/5af7c779-cd4c-438f-bfc6-e5958bde4ad9">
-
-#### Classic activation functions:
-<img width="871" alt="Screenshot 2024-02-17 at 00 43 47" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/8ac34882-9d2e-43c6-96b2-5ebacdb70fb0">
-<img width="940" alt="Screenshot 2024-02-17 at 00 43 23" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/18390a17-8183-47b3-af42-5c9405c39a3a">
+### Classic activation functions:
+<img width="1200" alt="Screenshot 2024-02-17 at 00 43 47" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/8ac34882-9d2e-43c6-96b2-5ebacdb70fb0">
+<img width="1200" alt="Screenshot 2024-02-17 at 00 43 23" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/18390a17-8183-47b3-af42-5c9405c39a3a">
 
 ##### Note that: Unfortunately, the training of networks equipped with these functions suffers from the vanishing gradient problem.
 
-#### Rectifier-based activation functions:
-<img width="920" alt="Screenshot 2024-02-17 at 00 57 19" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/e1745e1f-09b5-4af9-b704-c7371aa3d44d">
-<img width="929" alt="Screenshot 2024-02-17 at 00 59 41" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/1a4b0b03-8ac5-41e5-85d3-d2b3d418d62b">
-<img width="910" alt="Screenshot 2024-02-17 at 01 01 40" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/1437054b-fe27-4f9e-b616-5e0f78f800c6">
-<img width="946" alt="Screenshot 2024-02-17 at 01 06 09" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/cba5eaaf-b0d1-4e61-bf0d-5acfd077f68f">
-<img width="920" alt="Screenshot 2024-02-17 at 01 08 27" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/758bfbd1-4c06-452a-bd96-e8aaea812942">
-<img width="927" alt="Screenshot 2024-02-17 at 01 09 42" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/97648815-eebd-433e-8ea4-e08a20caa4d5">
-<img width="927" alt="Screenshot 2024-02-17 at 01 11 20" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/d27530e6-230c-47af-bce4-8dcbe74fdbb5">
+### Rectifier-based activation functions:
+<img width="1200" alt="Screenshot 2024-02-17 at 00 57 19" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/e1745e1f-09b5-4af9-b704-c7371aa3d44d">
+<img width="1200" alt="Screenshot 2024-02-17 at 00 59 41" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/1a4b0b03-8ac5-41e5-85d3-d2b3d418d62b">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 01 40" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/1437054b-fe27-4f9e-b616-5e0f78f800c6">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 06 09" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/cba5eaaf-b0d1-4e61-bf0d-5acfd077f68f">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 08 27" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/758bfbd1-4c06-452a-bd96-e8aaea812942">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 09 42" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/97648815-eebd-433e-8ea4-e08a20caa4d5">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 11 20" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/d27530e6-230c-47af-bce4-8dcbe74fdbb5">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 27 46" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/3d46db98-1de8-48db-867e-a860f6504e4f">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 27 33" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/83b9495c-fd01-4bee-925e-090e8e5a7758">
+
+## Trainable activation functions: 
+This class contains all the activation functions the shape of which is learned during the training phase. we can isolate two this into different families:
+
+–
+Parameterized standard functions: parameterized standard activation functions we refer to all the functions with a shape very similar to a given fixed-shape function, but having a set of trainable parameters that let this shape to be tuned. The addition of these parameters, therefore, requires changes, even minimal ones, in the learning process; for example, when using gradient-based methods, the partial derivatives of these new parameters are needed.
+
+–
+Functions based on ensemble methods: With the expression “ensemble methods” we refer to any technique merging together different functions. Basically, each of these techniques uses:
+
+• a set of basis functions, which can contain fixed-shape functions or trainable functions or both;
+
+• a combination model, which defines how the basis functions are combined together
+### Parameterized standard functions:
+<img width="1200" alt="Screenshot 2024-02-17 at 01 46 29" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/501c8c0c-09dd-4ecb-82cf-6eaaa549bc01">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 50 07" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/5d8a9d5a-134d-4040-981b-c3b9132c4e14">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 53 47" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/1aa606a8-37bd-4728-9d98-1ebe7cbcf582">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 56 41" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/5f0e2116-1a7a-4aaa-8c11-cc0086650b0b">
+<img width="1200" alt="Screenshot 2024-02-17 at 01 58 47" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/33b9df46-5863-4f46-9a4b-51bc47cfb168">
+<img width="1200" alt="Screenshot 2024-02-17 at 02 00 26" src="https://github.com/Basir-ku/Activation-Function/assets/123528497/17ada8f9-7c1a-4e73-bca0-84f8a78c59c7">
+
+### Functions based on ensemble methods:
+
+
+
 
 
 
