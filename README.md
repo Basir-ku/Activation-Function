@@ -69,7 +69,7 @@ Functions based on ensemble methods: With the expression “ensemble methods” 
 ## Trainable non-standard Activation function:
 These functions can be considered as a different type of computational neuron unit compared with the original computational neuron model! please read the literature if you want to know about them. 
 
-#### In the notebook I wrote python to script to implement some of the activaion functions. plase have look there.
+#### In the notebook you will find python script for some of the activaion functions. plase have look there.
 
 ### Reference:
 Andrea Apicella, Francesco Donnarumma, Francesco Isgrò, Roberto Prevete,
